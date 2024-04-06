@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  background-color: #121417;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  font-size: 28px;
+}
+
+p {
+  margin-bottom: 100px;
+  padding-inline: 20px;
+  color: #959eac;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #252d37;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  height: 51px;
+  width: 51px;
+  color: #7c8798;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #252d37;
+}
+
+button:hover {
+  background-color: #fb7413;
+  color: white;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between; /* Change from center to space-between */
+  margin: 30px 0;
+}
+
+.txts {
+  margin: 25px 0;
+}
+
+.sbm {
+  background-color: #fb7413;
+  border: none;
+  border-radius: 22px;
+  color: white;
+  font-size: 18px;
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card {
+  border-radius: 30px;
+  height: 416px;
+  width: 412px;
+  padding: 30px;
+  background: #232a34;
+}
+
+.sbm:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+.white-text {
+  color: white;
+}
+
+button.selected {
+  background-color: #fb7413;
+  background-color: gray;
+}
+
+.madloba {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.para {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 340px;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  margin-left: 110px;
+  margin-top: 50px;
+}
+
+.shepaseba {
+  font-size: 15px;
+  color: #fc7614;
+}
+
+.divi {
+  display: flex;
+  justify-content: center;
+  width: 220px;
+  height: 32px;
+  background-color: #262e38;
+  border-radius: 50px;
+
+  margin-top: 32px;
+  margin-left: 100px;
+}
